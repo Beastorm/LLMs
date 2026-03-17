@@ -40,10 +40,10 @@ The original file format used to store quantized models.
 - Stands for GPT-Generated Unified Format.
 
 **Improvements:**    
-✅ Self-contained (model weights + tokenizer + metadata all in one file)
-✅ Extensible key-value metadata system
-✅ Forward and backward compatible
-✅ Single file — easy to distribute and use
+✅ Self-contained (model weights + tokenizer + metadata all in one file)  
+✅ Extensible key-value metadata system  
+✅ Forward and backward compatible  
+✅ Single file — easy to distribute and use   
 
 
 ---
