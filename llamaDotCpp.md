@@ -716,3 +716,11 @@ User selects image
 │ Display answer               │
 └──────────────────────────────┘
 ```
+
+---
+
+### How to convert to gguf
+https://github.com/ggml-org/llama.cpp/blob/master/docs/development/HOWTO-add-model.md
+
+### Quantize model Steps:
+https://github.com/ggml-org/llama.cpp/tree/master/tools/quantize
