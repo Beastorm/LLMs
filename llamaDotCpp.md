@@ -62,6 +62,8 @@ GGUF is a binary format that stores:
 - Quantized or full-precision weight tensors
 - Weights are memory-mapped (mmap) for efficient loading without reading everything into RAM at once
 
+---
+
 **2. Quantization**    
 This is one of the key innovations. Instead of using full float32 (or float16) weights:
 | Format | Bits per weight | Description                  |
@@ -74,7 +76,6 @@ This is one of the key innovations. Instead of using full float32 (or float16) w
 | Q8_0   | 8 bits          | High quality                 |
 | F16    | 16 bits         | Half precision               |
 
----
 
 **How quantization works:**   
 
@@ -83,6 +84,7 @@ This is one of the key innovations. Instead of using full float32 (or float16) w
 - Individual weights are stored as small integers
 - During inference, weights are dequantized on-the-fly: w = scale * quantized_value
 
+---
 
 **3. ggml Tensor Library**  
 llama.cpp is built on top of ggml, a custom tensor library (also by Gerganov):
